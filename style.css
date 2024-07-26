@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.5;
+    background-color: #6F6AF7;
+}
+
+.logo{
+    font-family: 'delius unicase';
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    width: 70vw;align-items: center;
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+input{
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.search{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.search img{
+    height: 30px;
+    padding: 4px;
+    margin-right: 5px;
+}
+
+.search input{
+    color: #9F9F9F;
+
+}
+
+
+/* navbar completed */
+
+
+.container{
+    padding: 70px;
+}
+
+.chat-img{
+    position: fixed;
+    left: 1360px;
+    top: 560px;
+    height: 120px;
+}
+
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}   
+
+.poster-img{
+    height: 501px;
+    width: 456px;
+}
+
+textarea{
+    padding: 21px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E5D8FF;
+    resize: none;
+    color: #6F7373;
+    font-size: 20px;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.text-box{
+    margin-top: -10px;
+}
