@@ -13,6 +13,8 @@
     justify-content: space-around;
     line-height: 1.5;
     background-color: #6F6AF7;
+    position: fixed;
+    width: 100%;
 }
 
 .logo{
@@ -65,10 +67,6 @@ input:focus{
 /* navbar completed */
 
 
-.container{
-    padding: 80px;
-}
-
 .chat-img{
     position: fixed;
     left: 1360px;
@@ -76,6 +74,12 @@ input:focus{
     height: 120px;
 }
 
+.socials{
+    height: 160px;
+    position: sticky;
+    top: 200px;
+    margin-left: 1460px;
+}
 
 
 .main{
