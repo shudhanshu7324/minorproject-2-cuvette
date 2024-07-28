@@ -76,11 +76,19 @@ input:focus{
     height: 120px;
 }
 
+aside{
+    float: right;
+    margin-top: -200px;
+    position: sticky;
+    top: 300px;
+}
+
 .social{
     height: 160px;
+    position: sticky;
+    top: 200px;
     margin-left: 1460px;
-    position: fixed;
-    top: 300px;
+    margin-top: -400px;     
 }
 
 
